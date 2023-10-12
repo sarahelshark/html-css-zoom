@@ -53,7 +53,7 @@ body{
 }
 /*#endregion main*/
 
-/*#region footer*/
+/*#region top footer*/
 .sm-container {
     width: 100%;
     display: flex;
@@ -68,7 +68,24 @@ body{
 .col-icon {
     display: flex;
 }
-/*#endregion footer*/
+/*#endregion top  footer*/
+
+
+/*#region bottom footer*/
+.sm-container-b {
+    width: 100%;
+    display: flex;
+}
+.row.d-flex {
+    flex-grow: 3;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-text {
+    display: flex;
+}
+/*#endregion bottom footer*/
 
 /*#region spacings*/
 #site_main {
@@ -122,6 +139,7 @@ body{
 .debug .col-icon {
     border: 3px solid green;
 }
+
 /*fine footer debug*/
 
 /*#endregion debug*/
