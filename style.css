@@ -25,7 +25,10 @@ body{
 /*#endregion utilities*/
 
 /*#region header*/
-
+ header#site_header .d-flex {
+    gap: 1rem;
+    justify-content: flex-end;
+}
 /*#endregion header*/
 
 
@@ -38,9 +41,8 @@ body{
     flex-direction: column;
 }
 .row.d-flex {
-    gap: 0.75rem;
+    gap: 0.5rem;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .col-user  {
@@ -50,6 +52,10 @@ body{
 /*#region spacings*/
 #site_main {
     padding-top: 1rem;
+}
+
+[class^="col-"]{
+    margin-bottom: 0.5rem;
 }
 
 /*#endregion spacings*/
@@ -62,9 +68,6 @@ body{
 
 .debug header#site_header .d-flex {
     background-color: red;
-    height: 30px;
-    gap: 1rem;
-    justify-content: flex-end;
 }
 
 .debug .speaker{
