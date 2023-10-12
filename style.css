@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body{
+    max-width: 100%;
+}
 :root{
     
 }
@@ -13,16 +16,41 @@
 /*#region utilities*/
 .d-flex{
     display: flex;
-}
-
-.p-1{
+}.p-1{
     padding: 1rem;
 }
 
 
+
 /*#endregion utilities*/
 
+/*#region header*/
+
+/*#endregion header*/
+
+
+/*main*/
+.lg-container {
+    width: 90%;
+    margin: 0 10vh;
+    padding-top: 5vh;
+    justify-content: space-around;
+}
+.row.d-flex {
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-user  {
+    display: flex;
+    padding:7vh;
+}
 /*#region spacings*/
+#site_main {
+    padding-top: 1rem;
+}
+
 /*#endregion spacings*/
 
 /*#region debug*/
@@ -46,6 +74,16 @@
 .debug .large-vision{
     background-color: aqua;
     border: 3px solid black;
+}
+
+/*fine-header-debug*/
+
+.debug .lg-container {
+    background-color: orange;
+}
+
+.col-user  {
+    border: 2px solid black;
 }
 
 /*#endregion debug*/
