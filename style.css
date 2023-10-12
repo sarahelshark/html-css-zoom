@@ -1,0 +1,52 @@
+/*#region common*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    
+}
+/*#endregion common*/
+
+/*#region utilities*/
+.d-flex{
+    display: flex;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+
+/*#endregion utilities*/
+
+/*#region spacings*/
+/*#endregion spacings*/
+
+/*#region debug*/
+
+.debug {
+    background-color: yellow ;
+}
+
+.debug header#site_header .d-flex {
+    background-color: red;
+    height: 30px;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.debug .speaker{
+    background-color: grey;
+    border: 3px solid black;
+}
+
+.debug .large-vision{
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+/*#endregion debug*/
+
