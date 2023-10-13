@@ -19,8 +19,12 @@ body{
 }.p-1{
     padding: 1rem;
 }
-
-
+body {
+    max-width: 100%;
+    max-height: 100vh;
+    overflow-wrap: normal;
+    position:relative:
+}
 
 /*#endregion utilities*/
 
@@ -54,10 +58,15 @@ body{
 /*#endregion main*/
 
 /*#region top footer*/
+
+footer#site_footer{
+    max-height: 10vh;
+    position: sticky;
+}
+
 .sm-container {
     width: 100%;
     display: flex;
-    padding-top: 0.75rem;
 }
 .row.d-flex {
     flex-grow: 3;
