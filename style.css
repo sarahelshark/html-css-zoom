@@ -21,7 +21,7 @@ body{
 }
 body {
     max-width: 100%;
-    max-height: 100vh;
+    max-height: 1000vh;
     overflow-wrap: normal;
     position:relative:
 }
@@ -41,7 +41,7 @@ body {
     width: 90%;
     margin: 0 10vh;
     padding-top: 5vh;
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
     justify-content: space-around;
     flex-direction: column;
 }
@@ -60,8 +60,9 @@ body {
 /*#region top footer*/
 
 footer#site_footer{
-    max-height: 10vh;
+    max-height: 40%;
     position: sticky;
+    width: 100%;
 }
 
 .sm-container {
@@ -80,21 +81,7 @@ footer#site_footer{
 /*#endregion top  footer*/
 
 
-/*#region bottom footer*/
-.sm-container-b {
-    width: 100%;
-    display: flex;
-}
-.row.d-flex {
-    flex-grow: 3;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
-.col-text {
-    display: flex;
-}
-/*#endregion bottom footer*/
 
 /*#region spacings*/
 #site_main {
