@@ -66,8 +66,8 @@ body {
 .lg-container {
     width: 90%;
     margin: 0 10vh;
-    padding-top: 3vh;
-    padding-bottom: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
     justify-content: space-around;
     flex-direction: column;
 }
@@ -80,9 +80,20 @@ body {
 .col-user  {
     display: flex;
     padding:7vh;
-    background-image: url(https://picsum.photos/id/237/200/200);
+    background-image: url(https://picsum.photos/200);
     width: 200px;
-    height: 150px:
+    height: 130px;
+    position: relative;
+}
+
+.name{
+    color: var(--primary-light);
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: var(--zoom-toolbar);
+    font-size: 13px;
+    padding: 5px;
 }
 
 /*#endregion main*/
@@ -107,6 +118,10 @@ footer#site_footer{
 
 .col-icon {
     display: flex;
+    color: var(--primary-light);
+    font-size: 20px;
+    padding: 5px;
+
 }
 /*#endregion top  footer*/
 
