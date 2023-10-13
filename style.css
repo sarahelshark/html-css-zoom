@@ -140,18 +140,13 @@ div.end{
 }
 
 .col-text{
-    display: flex;
     color: var(--primary-light);
     font-size: 12px;
     gap: 1rem;
 }
 /*#endregion top  footer*/
 
-.col-text{
-    display: flex;
-    gap: 1rem;
 
-}
 
 /*#region spacings*/
 #site_main {
