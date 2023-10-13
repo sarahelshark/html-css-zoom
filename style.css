@@ -121,8 +121,9 @@ footer#site_footer{
     color: var(--primary-light);
     font-size: 20px;
     padding: 5px;
-
+    gap: 1rem;
 }
+    
 /*#endregion top  footer*/
 
 
