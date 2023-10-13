@@ -19,6 +19,9 @@ body{
     --zoom-toolbar:#b8bdc485;
 }
 
+img{
+    width: 100%;
+}
 
 
 /*#endregion common*/
@@ -45,6 +48,7 @@ body {
 
 }
 
+
 /*#endregion utilities*/
 
 /*#region header*/
@@ -62,8 +66,8 @@ body {
 .lg-container {
     width: 90%;
     margin: 0 10vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
     justify-content: space-around;
     flex-direction: column;
 }
@@ -76,7 +80,11 @@ body {
 .col-user  {
     display: flex;
     padding:7vh;
+    background-image: url(https://picsum.photos/id/237/200/200);
+    width: 200px;
+    height: 150px:
 }
+
 /*#endregion main*/
 
 /*#region top footer*/
