@@ -68,7 +68,7 @@ body {
 /*#region main*/
 #site_main {
     padding-top: 1rem;
-    max-height: 100vh;
+    max-height: calc(100vh - 3vh -3.5vh);
 }
 .lg-container {
     width: 90%;
@@ -158,9 +158,8 @@ div.end{
 }
 
 [class^="col-"]{
-    margin-bottom: 0.5rem;
+    margin-bottom: 5.75px;
 }
-
 /*#endregion spacings*/
 
 /*#region debug*/
