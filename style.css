@@ -128,9 +128,11 @@ footer#site_footer{
     display: flex;
     color: var(--primary-light);
     font-size: 20px;
-    padding: 5px;
-    padding-bottom: 0;
     gap: 1rem;
+    align-items: center;
+    padding-bottom: 3.5vh;
+    padding-left:  1.75vh;
+    padding-right:  1.75vh;
 }
 
 div.end{
@@ -148,6 +150,10 @@ div.end{
     font-size: 12px;
     gap: 1rem;
 }
+
+* .col-icon{
+   font-size: 16px;
+}
 /*#endregion top  footer*/
 
 
@@ -155,6 +161,7 @@ div.end{
 /*#region spacings*/
 #site_main {
     padding-top: 1rem;
+    
 }
 
 [class^="col-"]{
