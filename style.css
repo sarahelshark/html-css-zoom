@@ -66,6 +66,10 @@ body {
 
 
 /*#region main*/
+#site_main {
+    padding-top: 1rem;
+    max-height: 100vh;
+}
 .lg-container {
     width: 90%;
     margin: 0 10vh;
